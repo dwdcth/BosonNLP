@@ -17,7 +17,7 @@ EOF;
 
 //example1 不抛出异常
 $bnlp = new BosonNLP("your_key");
-$response= $bnlp->keywords($news."\"")
+$response= $bnlp->keywords($news);
 if($response){
  var_dump($response);
 }
