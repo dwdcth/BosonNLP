@@ -1,7 +1,7 @@
 #### 简介
 简单的封装了BosonNLP中文语义识别的api。
 #### 安装
-
+composer require xdao/boson-nlp
 #### 使用
 ```php
 require 'vendor/autoload.php';
