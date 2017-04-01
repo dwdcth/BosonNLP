@@ -1,5 +1,5 @@
 {
-    "name": "xdao/BosonNLP",
+    "name": "xdao/boson-nlp",
     "description": "Chinese semantic recognition",
     "type": "library",
     "license": "BSD",
