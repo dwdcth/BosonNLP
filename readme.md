@@ -41,7 +41,7 @@ var_dump($response);
 - 为了简洁，使用的是php内置的file_get_contents，不支持异步,返回原始所有数据，未做处理
 ![](response.jpg)
 - 有两种处理错误方式，一种是错误时返回false，一种是抛出异常
-![](excetption.jpg)
+![](exception.jpg)
 - BosonNLP有点傻，如果末尾带了英文的引号就不能处理了，如上exampl2，于是提供了一个去除英文标点的静态方法removePunct
 - 详细的文档，请查阅[官网](http://docs.bosonnlp.com/getting_started.html)
 
